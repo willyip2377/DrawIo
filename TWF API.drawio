@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T07:49:14.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.124 Safari/537.36" version="20.3.2" etag="1hVl9_QJ-cIQdpf4UYrc" type="github"><diagram id="dyYP-IpiUOdohnp84UrR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-19T08:30:05.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.124 Safari/537.36" etag="vFWsUgjCGtWnmanLMidg" version="20.3.2" type="github">
+  <diagram id="dyYP-IpiUOdohnp84UrR" name="Page-1">
+    <mxGraphModel dx="924" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zQwM5geRU1lE_CHy79oc-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="50" y="430" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zQwM5geRU1lE_CHy79oc-1" target="zQwM5geRU1lE_CHy79oc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-1" value="Quarterly Batch Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zQwM5geRU1lE_CHy79oc-2" target="zQwM5geRU1lE_CHy79oc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-2" value="Real Time API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zQwM5geRU1lE_CHy79oc-4" target="zQwM5geRU1lE_CHy79oc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-4" value="Calculate TWF and store into DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zQwM5geRU1lE_CHy79oc-5" target="zQwM5geRU1lE_CHy79oc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-5" value="TWF" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="55" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-6" value="Calculate Latest TWF and return via API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zQwM5geRU1lE_CHy79oc-11" target="zQwM5geRU1lE_CHy79oc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-11" value="Ad Hoc API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.759;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zQwM5geRU1lE_CHy79oc-12" target="zQwM5geRU1lE_CHy79oc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-12" value="Calculate TWF and store into DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-15" value="WINS retrieve Quarterly TWF value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zQwM5geRU1lE_CHy79oc-17" target="zQwM5geRU1lE_CHy79oc-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-17" value="App Team to call API and get Quarterly value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-21" value="This no need" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-25" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zQwM5geRU1lE_CHy79oc-23" target="zQwM5geRU1lE_CHy79oc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-27" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zQwM5geRU1lE_CHy79oc-23" target="zQwM5geRU1lE_CHy79oc-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-23" value="Quarterly value return?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zQwM5geRU1lE_CHy79oc-26" value="Return Value to app team" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
